@@ -3,5 +3,9 @@ title: "index.Rmd"
 author: "Zhaozhen Luo"
 date: "March 4, 2020"
 output: html_document
+bibliography: C:/Users/Zhaozhen Luo/Desktop/2020 spring/bio 497/lab 6/genome-analysis/references.bib
 ---
 
+Application written in R [@RCoreTeam] using the Shiny framework [@Chang2015].
+
+# REFERENCES
