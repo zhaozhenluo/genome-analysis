@@ -48,8 +48,6 @@ time_series_long_joined <- full_join(time_series_long_joined_1_,
 time_series_long_joined$Date <- mdy(time_series_long_joined$Date)
 
 
-global_time_series <- time_series_long_joined
-
 
 first_date = min(time_series_long_joined$Date, na.rm = TRUE)
 last_date = max(time_series_long_joined$Date, na.rm = TRUE)
@@ -62,7 +60,7 @@ head(Report_Type)
 ui <- fluidPage(
   
   
-  titlePanel("Exercise 4"),
+  titlePanel("Exercise 3"),
   p("Reference: Data for this application are from the Johns Hopkins Center for Systems Science and Engineering",
     tags$a("GitHub Repository", href="https://github.com/CSSEGISandData")
   ),
