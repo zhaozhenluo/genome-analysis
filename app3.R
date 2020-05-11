@@ -8,15 +8,14 @@
 #
 
 library(shiny)
-
-library(shiny)
 library(tidyverse)
+library(ggplot2)
 library(lubridate)
 library(maps)
 library(mapdata)
 library(wesanderson)
 
-# Exercises from Lab 11
+
 
 
 
